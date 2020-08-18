@@ -1,0 +1,278 @@
+@media screen and (max-width: 1300px) {
+    #main_dresses, #main_shirts, #main_skirts, #main_pants, #main_sweaters, #main_others {
+        display: none !important;
+        transform: scale(1, 1) skew(0deg) !important;
+    }
+    body {
+        overflow-x: hidden !important;
+    }
+    .navs {
+        height: 4px;
+        background-color: #f4f4f4;
+        margin: 5px 0;
+        display: block;
+    }
+    #nav {
+        width: 30px;
+        display: block;
+        margin: 1em 0 0 1em;
+        position: absolute;
+        left: 90%;
+        top: 2%;
+        height: 22px;
+        cursor: pointer;
+    }
+    #nav_list {
+        background-color: #34495e!important;
+        color: white;
+        width: 100%;
+        position: absolute;
+        right: 600px;
+        font-weight: bold;
+        font-size: 20px;
+        display: none;
+        flex-direction: column;
+        z-index: 3;
+        animation-name: navbar;
+        animation-timing-function: ease-out;
+        animation-duration: 0.7s;
+        animation-fill-mode: forwards;
+    }
+    .nav_active {
+        display: flex!important;
+        flex-direction: column!important;
+        animation-name: navbar;
+        animation-timing-function: ease-out;
+        animation-duration: 0.7s;
+        animation-fill-mode: forwards;
+    }
+    .toggled_links {
+        display: flex!important;
+        flex-direction: column!important;
+        animation-name: navbar;
+        animation-timing-function: ease-out;
+        animation-duration: 0.7s;
+        animation-fill-mode: forwards;
+    }
+    #nav_list li {
+        list-style-type: none;
+        position: relative;
+        left: 150px;
+        padding: 20px;
+        width: 100px;
+    }
+    @keyframes navbar {
+        from {
+            position: absolute;
+            right: -200px;
+        }
+        to {
+            position: absolute;
+            right: 0;
+        }
+    }
+    #nav_list li:hover {
+        transform: scale(1.1, 1.1);
+    }
+    #nav_list li:active, #nav_list li:hover  {
+        border: 2px solid white;
+        border-radius: 8px;
+    }
+    #login, #register {
+        display: none;
+    }
+    #main_dresses, #main_shirts, #main_skirts, #main_pants, #main_sweaters, #main_others {
+        display: none !important;
+        transform: scale(1, 1) skew(0deg) !important;
+    }
+    #footer {
+        height: 500px;
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden!important;
+    }
+    .navs {
+        height: 4px;
+        background-color: #f4f4f4;
+        margin: 5px 0;
+        display: block;
+    }
+    #nav {
+        width: 30px;
+        display: block;
+        margin: 1em 0 0 1em;
+        position: absolute;
+        left: 85%;
+        top: 2%;
+        height: 22px;
+        cursor: pointer;
+    }
+    #nav_list {
+        background-color: #34495e!important;
+        color: white;
+        width: 100%;
+        position: absolute;
+        right: 600px;
+        font-weight: bold;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        z-index: 3;
+        animation-name: navbar;
+        animation-timing-function: ease-out;
+        animation-duration: 0.7s;
+        animation-fill-mode: forwards;
+    }
+    .nav_active {
+        display: flex!important;
+        flex-direction: column!important;
+        animation-name: navbar;
+        animation-timing-function: ease-out;
+        animation-duration: 0.7s;
+        animation-fill-mode: forwards;
+    }
+    .toggled_links {
+        display: flex!important;
+        flex-direction: column!important;
+        animation-name: navbar;
+        animation-timing-function: ease-out;
+        animation-duration: 0.7s;
+        animation-fill-mode: forwards;
+    }
+    #nav_list li {
+        list-style-type: none;
+        position: relative;
+        left: 150px;
+        padding: 20px;
+        width: 100px;
+    }
+    @keyframes navbar {
+        from {
+            position: absolute;
+            right: -200px;
+        }
+        to {
+            position: absolute;
+            right: 0;
+        }
+    }
+    #login, #register {
+        display: none;
+    }
+    #main_dresses, #main_shirts, #main_skirts, #main_pants, #main_sweaters, #main_others{
+        display: none!important;
+        transform: scale(1,1) skew(0deg)!important;
+    }
+    #footer {
+        height: 500px;
+    }
+}
+@media screen and (max-width: 468px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .navs {
+        height: 4px;
+        background-color: #f4f4f4;
+        margin: 5px 0;
+        display: block;
+    }
+    .icons {
+        position: absolute;
+        left: -30px;
+    }
+    .languages {
+        position: absolute;
+        top: 190px!important;
+        left: 140px!important;
+    }
+    #nav {
+        width: 30px;
+        display: block;
+        margin: 1em 0 0 1em;
+        position: absolute;
+        left: 80%;
+        top: 2%;
+        height: 22px;
+        cursor: pointer;
+    }
+    #nav_list {
+        background-color: #34495e !important;
+        color: white;
+        width: 100%;
+        position: absolute;
+        right: 600px;
+        font-weight: bold;
+        font-size: 20px;
+        display: none;
+        flex-direction: column;
+        z-index: 3;
+        animation-name: navbar;
+        animation-timing-function: ease-out;
+        animation-duration: 0.7s;
+        animation-fill-mode: forwards;
+    }
+    .nav_active {
+        display: flex !important;
+        flex-direction: column !important;
+        animation-name: navbar;
+        animation-timing-function: ease-out;
+        animation-duration: 0.7s;
+        animation-fill-mode: forwards;
+    }
+    .toggled_links {
+        display: flex !important;
+        flex-direction: column !important;
+        animation-name: navbar;
+        animation-timing-function: ease-out;
+        animation-duration: 0.7s;
+        animation-fill-mode: forwards;
+    }
+    #nav_list li {
+        list-style-type: none;
+        position: relative;
+        left: 150px;
+        padding: 20px;
+        width: 100px;
+    }
+    @keyframes navbar {
+        from {
+            position: absolute;
+            right: -200px;
+        }
+        to {
+            position: absolute;
+            right: 0;
+        }
+    }
+    #login, #register {
+        display: none;
+    }
+    #list_of_clothes {
+        display: none !important;
+    }
+    #main_dresses, #main_shirts, #main_skirts, #main_pants, #main_sweaters, #main_others {
+        display: none !important;
+        transform: scale(1, 1) skew(0deg) !important;
+    }
+    .drop_button {
+        transform: skew(0deg) !important;
+    }
+    #info, #my_account, #contact {
+        display: block;
+        clear: both;
+        position: relative;
+        top: 22% !important;
+        right: 50%;
+        transform: translate(50%, -50%);
+    }
+    #info li, #my_account li, #contact li {
+        margin: 0 auto 0 auto;
+        display: block;
+    }
+    #footer {
+        display: block;
+    }
+}

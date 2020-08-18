@@ -1,0 +1,66 @@
+{
+  "items": [
+    {
+      "sys": {
+        "id": "1"
+      },
+      "fields": {
+        "name": "dress1",
+        "price": 100,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../images/landscape1.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "2"
+      },
+      "fields": {
+        "name": "dress2",
+        "price": 120,
+        "image": {
+          "fields": {
+            "file": {
+              "url": "../images/landscape2.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "3"
+      },
+      "fields": {
+        "name": "dress3",
+        "price": 110,
+        "image": {
+          "fields": {
+            "url": "../images/landscape3.jpg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "4"
+      },
+      "fields": {
+        "name": "dress4",
+        "price": 100,
+        "image": {
+          "fields": {
+            "url": {
+
+            }
+          }
+        }
+      }
+    }
+  ]
+}

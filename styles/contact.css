@@ -1,0 +1,11 @@
+#main {
+    height: 200vh;
+    width: 100%;
+}
+
+.contact {
+    text-align: center;
+    padding-top: 10vh;
+    font-size: 40px;
+    font-family: "sans-serif", Arial;
+}

@@ -1,0 +1,61 @@
+#container {
+    overflow: hidden;
+}
+#shipment {
+    width: 100%;
+    float: left;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.delivery {
+    padding: 30px;
+    border: 1px solid black;
+    width: 50%;
+    display: flex;
+    background-color: #e6e6e6;
+    margin: 20px;
+    position: relative;
+    top: 50px;
+    max-height: 100px;
+    overflow: hidden;
+}
+#shipment p {
+    padding: 30px;
+    display: flex;
+}
+.delivery a img {
+    width: 150px;
+    height: 66px;
+    position: absolute;
+    left: 75%;
+    bottom: 7px;
+}
+#shipment_cost {
+    font-size: 30px;
+    margin-left: 17%;
+    margin-top: 20px;
+    font-family: sans-serif, Arial;
+    font-weight: unset;
+}
+#shipment_euro {
+    font-size: 20px;
+    font-family: sans-serif, Arial;
+    margin-left: 8%;
+    position: relative;
+    top: 40px;
+}
+#shipment_euro a {
+    text-decoration: none;
+    color: #0000EE;
+}
+#payment {
+    clear: both;
+    width: 95%;
+    margin-left: 5%;
+    margin-bottom: 120px;
+    position: relative;
+    top: 80px;
+}
+#payment p {
+    padding: 10px;
+}

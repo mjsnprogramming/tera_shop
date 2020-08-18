@@ -1,0 +1,289 @@
+/*header*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#head_nav {
+    width: 100%;
+    height: 250px;
+    background-color: #eea236;
+}
+.icons {
+    position: absolute;
+    top: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.icons li img:hover {
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+@keyframes spin {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(180deg);
+    }
+    from {
+        transform: rotateY(180deg);
+    }
+    to {
+        transform: rotateY(0deg);
+    }
+}
+.icons li {
+    display: inline-flex;
+}
+.icons li img{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+.languages {
+    position: absolute;
+    top: 150px;
+    left: -1%;
+    list-style-type: none;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+.languages a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.flags {
+    width: 30px;
+    height: 18px;
+    border: solid 1px black;
+}
+#tera {
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: "Microsoft New Tai Lue", sans-serif;
+}
+a{
+    text-decoration: none!important;
+    color: black;
+}
+
+#searcher {
+    width: 250px;
+    height: 40px;
+    border: 2px solid #eea236;
+    border-radius: 8px;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#searcher:hover {
+    border-bottom: solid 2px black;
+    border-radius: unset;
+    border-left: hidden;
+    border-right: hidden;
+    border-top: hidden;
+}
+#searcher:hover::placeholder {
+    opacity: 0;
+}
+.lines {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+#logs {
+    top: 40px;
+    position: absolute;
+    left: 85%;
+    width: 15%;
+    height: 50px;
+    list-style-type: none;
+    display: inline-flex;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding: 0;
+}
+#logs li {
+    padding-left: 15px;
+}
+#logs li a {
+    text-decoration: none;
+    color: black;
+}
+#logs span {
+    padding-left: 10px;
+}
+#login li a:after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid #000;
+    width: 0;
+    position: relative;
+    transform-origin: right bottom;
+    left: 0;
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
+}
+#register li a:after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid #000;
+    width: 0;
+    position: relative;
+    transform-origin: right bottom;
+    left: 0;
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
+}
+#login li a:hover:after {
+    width: 70%;
+    transform-origin: left bottom;
+}
+#register li a:hover:after {
+    width: 100%;
+    transform-origin: left bottom;
+}
+#nav_list {
+    display: none;
+}
+#lists_of_clothes {
+    width: 1200px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: flex-end;
+    position: sticky;
+    left: 4vw;
+    top: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+#main_dresses, #main_shirts, #main_skirts, #main_pants, #main_sweaters, #main_others {
+    width: 200px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    transform: skew(-35deg);
+    font-style: normal;
+    display: none;
+    background-color: #eea236;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    max-height: 300px;
+}
+#main_dresses:hover,
+#main_shirts:hover,
+#main_skirts:hover,
+#main_pants:hover,
+#main_sweaters:hover,
+#main_others:hover {
+    transform: scale(1.1, 1.1) skew(-35deg);
+    cursor: pointer;
+}
+#main_dresses a, #main_shirts a, #main_pants a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.drop_button {
+    background-color: #eea236;
+    font-weight: bold;
+    color: black;
+    padding: 7px;
+    font-size: 12px;
+    border: none;
+    font-family: Arial, sans-serif;
+    transform: skew(35deg);
+    width: 175px;
+}
+.drop_button a {
+    color: black;
+    text-decoration: none;
+}
+.drop_content {
+    background-color: #439bf1;
+    position: relative;
+    left: 45px;
+    visibility: hidden;
+    z-index: 6;
+}
+.drop_content a {
+    border: solid 2px #eea236;
+    max-height: 50px;
+    justify-content: center;
+    background-color: white;
+}
+.drop_content a:hover {
+    transform: scale(1.1,1.1);
+    border: none;
+    border-radius: 4px;
+    background-color: #eea236;
+}
+.drop_button:hover {
+    transform: scale(1.01, 1.01) skew(35deg);
+    cursor: pointer;
+    font-style: normal;
+}
+#main_dresses:hover, #main_shirts:hover, #main_skirts:hover, #main_pants:hover, #main_sweaters:hover, #main_others:hover {
+    max-height: 300px;
+}
+#main_dresses, #main_shirts, #main_skirts, #main_pants, #main_sweaters, #main_others {
+    display: block;
+}
+/*footer*/
+#footer {
+    width: 100%;
+    height: 350px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 25px;
+    clear: both;
+}
+#info ul li p, #my_account ul li p, #contact ul li p {
+    padding: 10px;
+}
+#info, #my_account, #contact {
+    position: relative;
+    top: 20%;
+    left: 5%;
+    width: 25%;
+    float: left;
+}
+#info a, #my_account a, #contact a{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+#info a:hover, #my_account a:hover, #contact a:hover {
+    color: #eea236;
+}
+#info li, #my_account li, #contact li{
+    text-decoration: none;
+    list-style-type: none;
+}

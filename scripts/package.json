@@ -1,0 +1,26 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "scripts": {
+    "devStart": "nodemon emails/server.js"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.1.1",
+    "application": "^0.1.4",
+    "bcrypt": "^4.0.1",
+    "body-parser": "latest",
+    "cookie-session": "^1.4.0",
+    "express": "latest",
+    "express-session": "latest",
+    "express-validator": "^6.5.0",
+    "mysql": "latest",
+    "pug": "^3.0.0",
+    "website": "^0.1.1"
+  },
+  "devDependencies": {
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
