@@ -3,6 +3,7 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	overflow: hidden;
 }
 .page {
 	text-align: center;
@@ -15,6 +16,7 @@ body {
 	-webkit-align-items: center;
 	-webkit-box-align: center;
 	align-items: center;
+	overflow: hidden;
 }
 #login_square {
 	background: rgba(255, 255, 255, 0.62);
@@ -26,6 +28,9 @@ body {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	padding: 40px;
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
 }
 #login_square label, #login_square {
 	color: #000000;
@@ -42,6 +47,7 @@ body {
 @media screen and (max-width: 480px) and (min-width: 240px) {
 	#login_square {
 	width: auto;
+
 	}
 }
 #login_square input[type="submit"] {

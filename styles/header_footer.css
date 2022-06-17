@@ -178,6 +178,8 @@ a{
     top: 100%;
     box-sizing: border-box;
     margin: 0;
+    z-index: 3;
+    visibility: visible;
 }
 #main_dresses, #main_shirts, #main_skirts, #main_pants, #main_sweaters, #main_others {
     width: 200px;
@@ -193,6 +195,7 @@ a{
     min-width: 160px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     max-height: 300px;
+    visibility: visible;
 }
 #main_dresses:hover,
 #main_shirts:hover,
@@ -202,6 +205,7 @@ a{
 #main_others:hover {
     transform: scale(1.1, 1.1) skew(-35deg);
     cursor: pointer;
+    visibility: visible;
 }
 #main_dresses a, #main_shirts a, #main_pants a {
     color: black;
@@ -242,14 +246,17 @@ a{
     border: none;
     border-radius: 4px;
     background-color: #eea236;
+    visibility: visible;
 }
 .drop_button:hover {
     transform: scale(1.01, 1.01) skew(35deg);
     cursor: pointer;
     font-style: normal;
+    visibility: visible;
 }
 #main_dresses:hover, #main_shirts:hover, #main_skirts:hover, #main_pants:hover, #main_sweaters:hover, #main_others:hover {
     max-height: 300px;
+    visibility: visible;
 }
 #main_dresses, #main_shirts, #main_skirts, #main_pants, #main_sweaters, #main_others {
     display: block;

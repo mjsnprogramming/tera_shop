@@ -1,9 +1,6 @@
 
 @media screen and (max-width: 1200px) {
-    .pictures {
-        width: 25%;
 
-    }
 
     .under_photo {
         position: relative;
@@ -15,10 +12,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .pictures {
-        width: 33%;
-        flex-wrap: wrap;
-    }
 
     .under_photo {
         position: relative;
@@ -32,11 +25,6 @@
 @media screen and (max-width: 700px) {
     body {
         flex-direction: column;
-
-    }
-    #main_grid .pictures {
-        width: 80%;
-        height: 700px;
 
     }
 

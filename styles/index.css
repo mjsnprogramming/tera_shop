@@ -4,6 +4,7 @@
 	height: 700px;
 	overflow: hidden;
 	margin: auto;
+	z-index: 0;
 }
 .sliders {
 	width: 90%;
@@ -13,7 +14,7 @@
 	max-height: 500px;
 	display: flex;
 	border: 2px solid black;
-	z-index: 1;
+	z-index: 0;
 	overflow: hidden;
 }
 .sliders > img {
