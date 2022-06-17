@@ -1,5 +1,5 @@
 
-const navSlide = () => {
+
 
     const nav = document.querySelector('#nav');
     const nav_list = document.querySelector('#nav_list');
@@ -7,13 +7,9 @@ const navSlide = () => {
 
     nav.addEventListener('click', () => {
 
-       nav_list.classList.toggle('nav_active');
+       
 
-       links.forEach((link) => {
-           link.classList.toggle('toggled_links');
-       })
 
     });
 };
 
-navSlide();

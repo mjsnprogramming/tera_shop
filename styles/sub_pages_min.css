@@ -34,7 +34,7 @@
     }
 
     .pictures img {
-        height: 400px;
+        height: 500px;
         box-sizing: border-box;
     }
     .far {
@@ -64,15 +64,15 @@
 
 @media (max-width: 550px) and (min-width: 400px) {
     .far {
-        position: absolute;
-        left: 26vw!important;
+        position: relative;
+        left: 120px!important;
+        top: 100px;
     }
 }
 
 @media (max-width: 700px) and (min-width: 550px) {
     .far {
         position: absolute;
-        left: 28vw!important;
     }
 }
 @media (max-width: 700px) and (min-width: 400px) {

@@ -9,6 +9,7 @@
     drop_dresses.addEventListener('mouseover',  () => {
 
             drop_content_dresses.style.visibility = 'visible';
+            drop_content_dresses.style.display = 'block';
             drop_content_dresses.style.transform = 'skew(35deg)';
 
         });

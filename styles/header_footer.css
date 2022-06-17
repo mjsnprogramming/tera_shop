@@ -114,8 +114,8 @@ a{
 #logs {
     top: 40px;
     position: absolute;
-    left: 85%;
-    width: 15%;
+    left: 84%;
+    width: 300px;
     height: 50px;
     list-style-type: none;
     display: inline-flex;
@@ -179,7 +179,6 @@ a{
     box-sizing: border-box;
     margin: 0;
     z-index: 3;
-    visibility: visible;
 }
 #main_dresses, #main_shirts, #main_skirts, #main_pants, #main_sweaters, #main_others {
     width: 200px;
@@ -195,7 +194,6 @@ a{
     min-width: 160px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     max-height: 300px;
-    visibility: visible;
 }
 #main_dresses:hover,
 #main_shirts:hover,
@@ -246,13 +244,11 @@ a{
     border: none;
     border-radius: 4px;
     background-color: #eea236;
-    visibility: visible;
 }
 .drop_button:hover {
     transform: scale(1.01, 1.01) skew(35deg);
     cursor: pointer;
     font-style: normal;
-    visibility: visible;
 }
 #main_dresses:hover, #main_shirts:hover, #main_skirts:hover, #main_pants:hover, #main_sweaters:hover, #main_others:hover {
     max-height: 300px;

@@ -116,12 +116,9 @@
     border-top: hidden;
 
 }
-
 #searcher:hover::placeholder {
     opacity: 0;
 }
-
-
 #logs {
     top: 3%;
     position: absolute;
@@ -134,10 +131,7 @@
     font-size: 20px;
     font-weight: bold;
     color: black;
-
-
 }
-
 #logs li {
     padding-left: 15px;
 
