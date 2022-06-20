@@ -1,7 +1,7 @@
 
-Project of clothes store.
+This is my first website design and it features an online store written in plain css and vanillaJS
 
 
 Life:
 
-https://peaceful-northcutt-fe645a.netlify.app
+https://zesty-shortbread-43f5b1.netlify.app/
